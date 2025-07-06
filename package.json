@@ -1,0 +1,17 @@
+{
+  "name": "risuai-plugin",
+  "description": "A RisuAI plugin template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.4",
+    "rollup": "^4.44.2",
+    "rollup-sourcemap-path-transform": "^1.1.0",
+    "tslib": "^2.8.1",
+    "typescript": "~5.8.3"
+  }
+}
