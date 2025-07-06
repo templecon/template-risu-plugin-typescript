@@ -3,6 +3,7 @@
   "description": "A RisuAI plugin template",
   "private": true,
   "version": "0.0.0",
+  "license": "GPL-3.0-only",
   "type": "module",
   "scripts": {
     "build": "rollup -c"
