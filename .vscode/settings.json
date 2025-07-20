@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "build/risuai": true
+    },
+    "search.useParentIgnoreFiles": false
+}

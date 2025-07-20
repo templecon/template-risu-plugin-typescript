@@ -24,9 +24,9 @@
     "noUncheckedSideEffectImports": true,
     "paths": {
       "@risu/*": [
-        "./risutype"
+        "./build/risuai-dts/*"
       ]
-    }
+    },
   },
   "include": [
     "src"
