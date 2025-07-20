@@ -7,7 +7,8 @@
   "type": "module",
   "scripts": {
     "build": "rollup -c",
-    "install:types": "python utils/updateRisuaiDts.py"
+    "install:types": "python utils/updateRisuaiDts.py",
+    "postbuild": "python utils/removeAtRisu.py"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.4",
