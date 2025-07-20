@@ -1,5 +1,5 @@
 {
-  "name": "global-lorebook-helper",
+  "name": "risuai-plugin",
   "description": "A RisuAI plugin template",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "rollup -c",
-    "install:types": "python3 utils/updateRisuaiDts.py"
+    "install:types": "python utils/updateRisuaiDts.py"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.4",
