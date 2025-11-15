@@ -3,7 +3,7 @@
 
 # How to use:
 ```
-git clone https://github.com/concertypin/template -b risu-plugin-typescript
+git clone https://github.com/templecon/template-risu-plugin-typescript
 pnpm install
 pnpm install:types
 ```
